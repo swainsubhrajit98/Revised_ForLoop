@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML page of A2</title>
+</head>
+<body>
+    <center>
+        <h1>App2 First HTML</h1>
+        {% if a > b %}
+            {% if a > c %}
+                <h1>A is greater and A is {{a}}</h1>
+            {% else %}
+                <h1>C is grater and C is {{c}}</h1>
+            {% endif %}
+        {% else %}
+            {% if b > c %}
+                <h1>B is greater and B is {{b}} </h1>
+            {% else %}
+                <h1>C is greater and C is {{c}}</h1>
+            {% endif %}
+        {% endif %}
+    </center>
+</body>
+</html>
